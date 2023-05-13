@@ -9,7 +9,29 @@
 </head>
 
 <body>
-    
+    <div class="header-menu">
+        <header>
+            <button href="/">Home</button>
+
+            <nav>
+                <!--login instances-->
+                {{#if logged_in}}
+                <a href="">Profile</a>
+                <button id="logout" class="no-button">Logout</button>
+                {{else}}
+                <a href="">Login</a>
+                {{/if}}
+            </nav>
+
+        </header>
+
+        <h1 class="title">The Tech Blog</h1>
+    </div>
+
+    <div>
+
+    </div>
+
 </body>
 
 </html>
