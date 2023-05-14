@@ -28,6 +28,7 @@ https://github.com/nabeekha/MVC-Tech-Blog
 ## Usage
 
 Below is a link to the deployed live application: 
+https://beel-mvc-blog.herokuapp.com/ 
 
 Below are several screenshots of the deployed application. 
 
