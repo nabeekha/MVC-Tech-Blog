@@ -80,4 +80,23 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
+router.get('/api/blogs', async (req, res) => {
+  try {
+    const blogData = await Blog.findAll({
+      include: [
+        {
+          model: User,
+        }
+      ]
+    })
+
+    const blogs = blogData.map((blog) => blog.get({ plain: true }))
+
+    res.json(blogs);
+  } catch (err) {
+    res.status(500).json(err);
+
+  }
+})
+
 module.exports = router;
