@@ -32,7 +32,7 @@ https://beel-mvc-blog.herokuapp.com/
 
 Below are several screenshots of the deployed application. 
 
-![alt text](assets/images/screenshot.png)
+![alt text](/MVC-Tech-Blog/public/assets/tech%20blog%20image.png)
 
 ## Credits
 
